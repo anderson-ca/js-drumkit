@@ -37,8 +37,15 @@ li {
   box-shadow: 28px 28px 52px #191a3b, -28px -28px 52px #2f3271;
   padding: 0.8rem 0.8rem;
   align-items: center;
-  /* justify-content: center; */
+  transition: all 0.07s;
   font-family: var(--primary-font);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #26295d, #2d306e);
+  box-shadow: 33px 33px 65px #26295d, -33px -33px 65px #2e3271;
 }
 
 li > *:last-child {
